@@ -22,7 +22,7 @@ Zhen Xu: CNN + RNN model
 
 Siyi: CNN + RNN model
 
-zihang: Conv3D, 2D CNN + Conv1D model
+Zihang: Conv3D, 2D CNN + Conv1D model
 
 #### Method1
 Method 1 used a hybrid neural network model combining Convolutional Neural Networks (CNNs) with Recurrent Neural Networks (RNNs) using the Keras framework.
