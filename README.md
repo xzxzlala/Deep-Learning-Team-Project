@@ -12,6 +12,12 @@ Prior research has already explored gesture recognition by using different model
 This dataset has videos categorised into one of the five classes. Stop, Right swipe, Left swipe, Thumbs down, Thumbs up Each video is divided into a sequence of 30 frames. Two types of dimensions - 360x360 && 120x160.
 
 ### Methods
+Different Methods are tested by different team members.
+You could check the detail code in each branch.
+Haotao: RNN model
+Zhen Xu: CNN + RNN model
+Siyi: CNN + RNN model
+zihang: Conv3D, 2D CNN + Conv1D model
 
 #### Method1
 Method 1 used a hybrid neural network model combining Convolutional Neural Networks (CNNs) with Recurrent Neural Networks (RNNs) using the Keras framework.
