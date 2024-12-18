@@ -23,7 +23,7 @@ class FlexibleConv3DModel(nn.Module):
                 nn.Conv3d(in_channels=in_channels, out_channels=out_channels, kernel_size=(3, 3, 3), stride=1, padding=1)
             )
             self.layers.append(nn.ReLU())
-            self.layers.append(nn.MaxPool3d(kernel_size=(2, 2, 2), stride=2)) # old version. In new version, first pool use(1, 2, 2). TODO : Compare the difference.
+            self.layers.append(nn.MaxPool3d(kernel_size=(2, 2, 2), stride=2)) # old version. In new version, first pool use(1, 2, 2). 
             if i >  num_conv_layers // 2:
                 self.layers.append(nn.Dropout3d(p=dropout_rate))
             in_channels = out_channels

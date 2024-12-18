@@ -1,3 +1,4 @@
 .DS_Store
 gesture-recognition-dataset/
 __pycache__/
+checkpoints/
